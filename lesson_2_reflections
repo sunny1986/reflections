@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+1) When we initialize a repository, it creates a hidden .git folder which will contain the metadata related to the files within the
+	repository once the files are committed.
+2) It is required since git tracks the files in the repository with the help of this .git folder. It tells that now the files within this 
+folder are now within a git repository. Hence git can start to track it and keep meta data related to the files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+1) Git allows more control while committing changes to a repository from working directory. Since it is a good strategy to follow
+	"One commit per logical change", Git lets you specifically tell what changes you would like to commit to the repository. 
+2) It creates a staging area which lets you to add files with the changes to be committed. When ready to commit it lets you commit
+and allows you to add a message for that one logical change.
