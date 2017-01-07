@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+1) It needs very less time to find out differences between two versions of a file
+2) It is accurate to tell where and what was different in the two versions
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+1) It provides a window to look at what changes were made to the file and also by whom. It can quickly let one get back to a previous working version
+or at least a version before certain changes were made to that file.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+1)
+Pros: Manual commits might lead to keeping the size of commit log/history the right size if used just the right way - "One commit per logical change" 
+On every small change auto commit might lead to the log/history size of the commits to be too large
+Cons: Manually choosing to commit might lead to subjective saving of versions and it may end up with commits that are too big or too small.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+1)Some version control systems (VCS) like Git saves multiple files in one commit since they might be related to each other. One change might affect the other files
+2) They have a concept of repository where all related files are kept.
+3) Other VCS treat each file separately since they are not able relate each file with the other and treat every file separately.
+4) They might have a concept of repository but a commit does not apply to save each file in the repository
+
+How can you use the commands git log and git diff to view the history of files?
+1)git log lets one view the changes that were made to a file along with relevant information like,commit ID, author name, time of commit, changes made, etc
+2)git log --stat lets one also view a snapshot of how many additions and deletions happened to a file over various commits
+3)git diff lets one see the differences between two versions of a file and it displays necessary information between the versions of a file
+
+How might using version control make you more confident to make changes that could break something?
+1)Version control lets you get back to previous commits which were working correctly
+2)This lets you track where a bug developed which broke the program
+
+Reflections on Problem Set 1
+1) I was able to fix a bug in someone else's code! 
+	a) First observed what the bug was and how the game behaved VS how it should behaved	
+	b) Then tried to find which commit introduced the bug using commit messages and using checkout function
+	c) After finding out the buggy commit. Compared using the diff command to find the differences between old and new versions	
+	d) Then went to the lines of the code that had differences. Made sense of what would that cause and got rid of the bug
+2) Hence this will be mostly a common method of debugging using Git version control. Very useful! Something that I had never done before.Cool!
