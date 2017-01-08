@@ -14,3 +14,14 @@ How can you use the staging area to make sure you have one commit per logical ch
 1) We can use the command "git commit --staged". This command tells you the difference between the files in the staging area and those
 in the repository before commit. Here you can verify that you have one commit per logical change looking at the differences and also make
 sure that these are the changes you definitely want to commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+1) Situations :
+	a)When you would like to try out something in the code but not sure if it would work. Experimental purpose
+	b)If you don't want to make functional changes but try performance of the code with a new set of libraries.
+	c)If you want to run your application for a different language like Italian instead of English
+2) Branches help create a replica of the master but does not affect the master on commit. One can use this replica for working on to try
+something out without disturbing the master. It will be like to try a new branch and create commits and grow into different direction away
+from the master but always can come back to the master file and also simultaneously work on improving master. The master version and the 
+branch version can also be merged later in time if things fly :-P
+
