@@ -9,3 +9,8 @@ How is the staging area different from the working directory and the repository?
 	"One commit per logical change", Git lets you specifically tell what changes you would like to commit to the repository. 
 2) It creates a staging area which lets you to add files with the changes to be committed. When ready to commit it lets you commit
 and allows you to add a message for that one logical change.
+
+How can you use the staging area to make sure you have one commit per logical change?
+1) We can use the command "git commit --staged". This command tells you the difference between the files in the staging area and those
+in the repository before commit. Here you can verify that you have one commit per logical change looking at the differences and also make
+sure that these are the changes you definitely want to commit.
