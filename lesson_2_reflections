@@ -25,3 +25,7 @@ something out without disturbing the master. It will be like to try a new branch
 from the master but always can come back to the master file and also simultaneously work on improving master. The master version and the 
 branch version can also be merged later in time if things fly :-P
 
+How do the diagrams help you visualize the branch structure?
+1) The diagrams can be displayed using "git log --graph --oneline". It lets you understand the reachability of the commits in various branches.
+2) The diagram shows the parent of each commit
+3) It also lets one find out which commit was used to create a branch
