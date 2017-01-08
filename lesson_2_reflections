@@ -29,3 +29,4 @@ How do the diagrams help you visualize the branch structure?
 1) The diagrams can be displayed using "git log --graph --oneline". It lets you understand the reachability of the commits in various branches.
 2) The diagram shows the parent of each commit
 3) It also lets one find out which commit was used to create a branch
+4) Lets you see which commits are in which branch
