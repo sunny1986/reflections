@@ -30,3 +30,8 @@ How do the diagrams help you visualize the branch structure?
 2) The diagram shows the parent of each commit
 3) It also lets one find out which commit was used to create a branch
 4) Lets you see which commits are in which branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+1)The result of merging branches together is that the new merged master commit now contains changes from both master and the branch.
+2)The merge represented by the diagram lets you see what commit was used when the branch was started. It also lets you know the last commit
+in the branch before the merge happened.
