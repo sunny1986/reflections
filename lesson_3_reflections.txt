@@ -11,3 +11,7 @@ Describe the differences between forks, clones, and branches. When would you use
 2) Clones: Copy of a publicly accessible repository onto your local machine. Also copy of a local repository onto your local machine
 3) Branches: Branches are confined to be within a repository. They are a copy of a commit intended for experimental purpose or adding new
 features to a project. Its for trying things out before merging into the master branch to become the official version.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+The benefit is when the local machine is not connected to the Internet, you can work with the last known state of the remote and later on
+when connected can update your work with any updates on the remote
