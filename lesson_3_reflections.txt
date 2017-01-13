@@ -15,3 +15,16 @@ features to a project. Its for trying things out before merging into the master 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit is when the local machine is not connected to the Internet, you can work with the last known state of the remote and later on
 when connected can update your work with any updates on the remote
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+1) Try to use Google drive with a way to keep log by tracking changes including details about the author, time-stamp, etc. Like a manual version control
+2) Easier:  An internet communication will not be required
+			Since it is difficult to break the project most likely assing the job to just one guy. 
+			Hence easy to contact just one guy and follow up. Scape goat count remains = 1
+			Hence no problems merging! Yay!
+   Harder:  Have difficulty in keeping track of changes and related details
+			Inability to improve efficiency since it gets risky to break down the project and be assigned to multiple people
+			Difficulties in terms of collaborating and recording changes
+			Difficulties in capturing the state of the files when changes were made by a person
+			Mind-blowing problems when trying to assign parts of the project to multiple people and trying to merge all the work together
+			
