@@ -27,4 +27,15 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 			Difficulties in terms of collaborating and recording changes
 			Difficulties in capturing the state of the files when changes were made by a person
 			Mind-blowing problems when trying to assign parts of the project to multiple people and trying to merge all the work together
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+1) When collaborating with others on a project and would like to get feedback before merging with the master you want to branch out
+2) Making changes on the master branch but not sure if that change will work/make sense
+3) Branches allow you to take advantage of the Github functions like pull requests in order to maintain a healthy workflow so that the merges
+with the master branch do not go unnoticed by other collaborators 
+
+Benefits:
+Benefits with branching are as above, lets you collaborate, make sensible changes, get feedback, maintain a healthy workflow while collaborating
+Benefits working directly with the master is it lets you push or pull and keep the local master and remote master stay up-to-date, reduce conflicts
+on merges later on if branches are added
 			
